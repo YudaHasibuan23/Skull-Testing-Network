@@ -2,7 +2,7 @@
 
 # Skull Testing 
 
-alat untuk memantau, menganalisis, dan membatasi bandwidth (upload/download) perangkat di jaringan lokal Anda tanpa akses fisik atau administratif.<br>
+Alat untuk memantau, menganalisis, dan membatasi bandwidth (upload/download) perangkat di jaringan lokal Anda tanpa akses fisik atau administratif.<br>
 ```Skull Testing``` menggunakan [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) dan [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) untuk membatasi bandwidth host di jaringan.
 
 
