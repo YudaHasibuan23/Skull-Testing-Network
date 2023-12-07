@@ -15,8 +15,8 @@ Kemungkinan paket python yang hilang akan diinstal selama proses instalasi.
 ## Installasi
 
 ```bash
-git clone https://github.com/bitbrute/evillimiter.git
-cd evillimiter
+git clone https://github.com/YudaHasibuan23/Skull-Testing-Network
+cd Skull-Testing-Network
 sudo python3 setup.py install
 ```
 
