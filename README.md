@@ -1,4 +1,4 @@
-<p align="center"><img src="https://firebasestorage.googleapis.com/v0/b/yudahasibuann23.appspot.com/o/Desain%20tanpa%20judul.png?alt=media&token=3572730f-a460-4447-a3dd-bef2624e3ca5" /></p>
+<p align="center"><img src="https://firebasestorage.googleapis.com/v0/b/yudahasibuann23.appspot.com/o/Desain%20tanpa%20judul.png?alt=media&token=3572730f-a460-4447-a3dd-bef2624e3ca5 style="max-width: 200%;"/></p>
 
 # Evil Limiter
 
