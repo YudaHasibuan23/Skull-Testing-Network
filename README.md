@@ -31,7 +31,7 @@ sudo python3 setup.py install
 Tipe ```evillimiter``` or ```python3 bin/evillimiter``` Untuk Menjalanakan Tools.
 
 
-#### Command-Line Arguments
+#### Argumen Baris Perintah
 
 | Argument | Explanation |
 | -------- | ----------- |
@@ -47,21 +47,21 @@ Tipe ```evillimiter``` or ```python3 bin/evillimiter``` Untuk Menjalanakan Tools
 
 | Command | Explanation |
 | ------- | ----------- |
-| ```scan (--range [IP Range])``` | Scans your network for online hosts. One of the first things to do after start.<br>```--range``` lets you specify a custom IP range.<br>For example: ```scan --range 192.168.178.1-192.168.178.40``` or just ```scan``` to scan the entire subnet.
-| ```hosts (--force)``` | Displays all the hosts/devices previously scanned and basic information. Shows ID for each host that is required for interaction.<br>```--force``` forces the table to be shown, even when it doesn't fit the terminal.
-| ```limit [ID1,ID2,...] [Rate] (--upload) (--download)``` | Limits bandwidth of host(s) associated to specified ID. Rate determines the internet speed.<br>```--upload``` limits outgoing traffic only.<br>```--download``` limits incoming traffic only.<br>Valid rates: ```bit```, ```kbit```, ```mbit```, ```gbit```<br>For example: ```limit 4,5,6 200kbit``` or ```limit all 1gbit```
-| ```block [ID1,ID2,...] (--upload) (--download)``` | Blocks internet connection of host(s) associated to specified ID.<br>```--upload``` limits outgoing traffic only <br>```--download``` limits incoming traffic only.
-| ```free [ID1,ID2,...]``` | Unlimits/Unblocks host(s) associated to specified ID. Removes all further restrictions.
-| ```add [IP] (--mac [MAC])``` | Adds custom host to host list. MAC-Address will be resolved automatically or can be specified manually.<br>For example: ```add 192.168.178.24``` or ```add 192.168.1.50 --mac 1c:fc:bc:2d:a6:37```
-| ```monitor (--interval [time in ms])``` | Monitors bandwidth usage of limited host(s) (current usage, total bandwidth used, ...).<br>```--interval``` sets the interval after bandwidth information get refreshed in milliseconds (default 500ms).<br>For example: ```monitor --interval 1000```
-| ```analyze [ID1,ID2,...] (--duration [time in s])``` | Analyzes traffic of host(s) without limiting to determine who uses how much bandwidth.<br>```--duration``` specifies the duration of the analysis in seconds (default 30s).<br>For example: ```analyze 2,3 --duration 120```
-| ```watch``` | Shows current watch status. The watch feature detects when a host reconnects with a different IP address.
-| ```watch add [ID1,ID2,...]``` | Adds specified host(s) to the watchlist.<br>For example: ```watch add 6,7,8```
-| ```watch remove [ID1,ID2,...]``` | Removes specified host(s) from the watchlist.<br>For example: ```watch remove all```
-| ```watch set [Attribute] [Value]``` | Changes current watch settings. The following attributes can be changed:<br>```range``` is the IP range to scan for reconnects.<br>```interval``` is the time to wait between each network scan (in seconds).<br>For example: ```watch set interval 120```
-| ```clear``` | Clears the terminal window.
-| ```quit``` | Quits the application.
-| ```?```, ```help``` | Displays command information similar to this one.
+| ```scan (--range [IP Range])``` | Memindai jaringan Anda untuk mencari host online. Salah satu hal pertama yang harus dilakukan setelah memulai.<br>```--range``` memungkinkan Anda menentukan rentang IP khusus.<br>Misalnya: ```scan --range 192.168.178.1-192.168.178.40 ``` atau cukup ```scan``` untuk memindai seluruh subnet.
+| ```hosts (--force)``` | Menampilkan semua host/perangkat yang dipindai sebelumnya dan informasi dasar. Menampilkan ID untuk setiap host yang diperlukan untuk interaksi.<br>```--force``` memaksa tabel untuk ditampilkan, meskipun tabel tersebut tidak sesuai dengan terminal.
+| ```limit [ID1,ID2,...] [Rate] (--upload) (--download)``` | Membatasi bandwidth host yang terkait dengan ID tertentu. Tarif menentukan kecepatan internet.<br>```--upload``` hanya membatasi lalu lintas keluar.<br>```--download``` hanya membatasi lalu lintas masuk.<br>Tarif yang valid: ```bit ```, ```kbit```, ```mbit```, ```gbit```<br>Misalnya: ```batas 4,5,6 200kbit``` atau ``` batasi semua 1gbit```
+| ```block [ID1,ID2,...] (--upload) (--download)``` | Memblokir koneksi internet host yang terkait dengan ID tertentu.<br>```--upload``` hanya membatasi lalu lintas keluar <br>```--download``` hanya membatasi lalu lintas masuk.
+| ```free [ID1,ID2,...]``` | Membatalkan/Membuka blokir host yang terkait dengan ID tertentu. Menghapus semua batasan lebih lanjut.
+| ```add [IP] (--mac [MAC])``` | Menambahkan host khusus ke daftar host. Alamat MAC akan diselesaikan secara otomatis atau dapat ditentukan secara manual.<br>Misalnya: ```tambahkan 192.168.178.24``` atau ```tambahkan 192.168.1.50 --mac 1c:fc:bc:2d:a6: 37```
+| ```monitor (--interval [time in ms])``` | Memantau penggunaan bandwidth dari host yang terbatas (penggunaan saat ini, total bandwidth yang digunakan, ...).<br>```--interval``` menyetel interval setelah informasi bandwidth disegarkan dalam milidetik (default 500 md).< br> Misalnya: ```monitor --interval 1000```
+| ```analyze [ID1,ID2,...] (--duration [time in s])``` | Menganalisis lalu lintas host tanpa batasan untuk menentukan siapa yang menggunakan berapa banyak bandwidth.<br>```--duration``` specifies the duration of the analysis in seconds (default 30s).<br>For example: ```analyze 2,3 --duration 120```
+| ```watch``` | Sbagaimana status tontonan saat ini. Fitur jam tangan mendeteksi ketika host terhubung kembali dengan alamat IP yang berbeda.
+| ```watch add [ID1,ID2,...]``` | Menambahkan host tertentu ke daftar pantauan.<br>Misalnya: ```watch add 6,7,8```
+| ```watch remove [ID1,ID2,...]``` | Rmenghapus host tertentu dari daftar pantauan.<br>Misalnya: ```watch remove all```
+| ```watch set [Attribute] [Value]``` | Cmengubah pengaturan jam tangan saat ini. Atribut berikut dapat diubah:<br>```range``` adalah rentang IP yang akan dipindai untuk menyambung kembali.<br>```interval``` adalah waktu tunggu di antara setiap pemindaian jaringan (dalam hitungan detik).<br>Misalnya: ```watch set interval 120```
+| ```clear``` | Membersihkan Terminal Pada Linux.
+| ```quit``` | Keluar Terminal.
+| ```?```, ```help``` |menampilkan informasi perintah yang mirip dengan ini.
 
 ## Restrictions
 
