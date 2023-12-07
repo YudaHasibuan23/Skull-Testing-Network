@@ -8,27 +8,23 @@
 [![HitCount](http://hits.dwyl.io/bitbrute/evillimiter.svg)](http://hits.dwyl.io/bitbrute/evillimiter)
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
-A tool to monitor, analyze and limit the bandwidth (upload/download) of devices on your local network without physical or administrative access.<br>
-```evillimiter``` employs [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) and [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) to throttle the bandwidth of hosts on the network.
+alat untuk memantau, menganalisis, dan membatasi bandwidth (upload/download) perangkat di jaringan lokal Anda tanpa akses fisik atau administratif.<br>
+```Skull Testing``` menggunakan [ARP spoofing](https://en.wikipedia.org/wiki/ARP_spoofing) dan [traffic shaping](https://en.wikipedia.org/wiki/Traffic_shaping) untuk membatasi bandwidth host di jaringan.
 
-**Searching for a Windows-compatible version?**<br>
-Check out the open-source alternative [EvilLimiter for Windows](https://github.com/bitbrute/evillimiter-windows).
 
-## Requirements
+## Syarat:
 - Linux distribution
 - Python 3 or greater
 
-Possibly missing python packages will be installed during the installation process.
+Kemungkinan paket python yang hilang akan diinstal selama proses instalasi.
 
-## Installation
+## Installasi
 
 ```bash
 git clone https://github.com/bitbrute/evillimiter.git
 cd evillimiter
 sudo python3 setup.py install
 ```
-
-Alternatively, you can download a desired version from the [Release page](https://github.com/bitbrute/evillimiter/releases).<br>
 
 ## Usage
 
