@@ -26,23 +26,22 @@ cd evillimiter
 sudo python3 setup.py install
 ```
 
-## Usage
+## Use
 
-Type ```evillimiter``` or ```python3 bin/evillimiter``` to run the tool.
+Tipe ```evillimiter``` or ```python3 bin/evillimiter``` Untuk Menjalanakan Tools.
 
-```evillimiter``` will try to resolve required information (network interface, netmask, gateway address, ...) on its own, automatically.
 
 #### Command-Line Arguments
 
 | Argument | Explanation |
 | -------- | ----------- |
-| ```-h``` | Displays help message listing all command-line arguments |
-| ```-i [Interface Name]``` | Specifies network interface (resolved if not specified)|
-| ```-g [Gateway IP Address]``` | Specifies gateway IP address (resolved if not specified)|
-| ```-m [Gateway MAC Address]``` | Specifies gateway MAC address (resolved if not specified)|
-| ```-n [Netmask Address]``` | Specifies netmask (resolved if not specified)|
-| ```-f``` | Flushes current iptables and tc configuration. Ensures that packets are dealt with correctly.|
-| ```--colorless``` | Disables colored output |
+| ```-h``` | Menampilkan pesan bantuan yang mencantumkan semua argumen baris perintah |
+| ```-i [Interface Name]``` | Menentukan antarmuka jaringan (diselesaikan jika tidak ditentukan)|
+| ```-g [Gateway IP Address]``` | menentukan alamat IP gateway (diselesaikan jika tidak ditentukan)|
+| ```-m [Gateway MAC Address]``` | Menentukan alamat MAC gateway (diselesaikan jika tidak ditentukan)|
+| ```-n [Netmask Address]``` | Menentukan netmask (diselesaikan jika tidak ditentukan)|
+| ```-f``` | Menghapus konfigurasi iptables dan tc saat ini. Memastikan bahwa paket ditangani dengan benar.|
+| ```--colorless``` | Menonaktifkan keluaran berwarna |
 
 #### ```evillimiter``` Commands
 
