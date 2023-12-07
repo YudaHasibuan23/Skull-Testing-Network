@@ -1,4 +1,4 @@
-<p align="center"><img src="https://firebasestorage.googleapis.com/v0/b/yudahasibuann23.appspot.com/o/Desain%20tanpa%20judul.png?alt=media&token=3572730f-a460-4447-a3dd-bef2624e3ca5" alt="Image" height="600" width="600" </p>
+<p align="center"><img src="https://firebasestorage.googleapis.com/v0/b/yudahasibuann23.appspot.com/o/Abstract%20Bank%20Card%20Logo.png?alt=media&token=26ee5ba3-89f0-4c2a-85dd-7fc400dbe7fb"</p>
 
 # Evil Limiter
 
