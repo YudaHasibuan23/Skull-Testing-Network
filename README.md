@@ -1,6 +1,6 @@
 <p align="center"><img src="https://firebasestorage.googleapis.com/v0/b/yudahasibuann23.appspot.com/o/Desain%20tanpa%20judul%20(1).png?alt=media&token=18224a1b-d413-4fd7-9553-af6aa04f16c4"</p>
 
-# Evil Limiter
+# Skull Testing 
 
 [![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Compatibility](https://img.shields.io/badge/python-3-brightgreen.svg)](PROJECT)
